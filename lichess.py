@@ -80,9 +80,7 @@ class Lichess:
         :param max_retries: The maximum amount of retries for online moves (e.g. chessdb's opening book).
         """
         self.version = version
-        self.header = {
-            "Authorization": f"Bearer {token}"
-        }
+        self.header = {"Authorization": f"Bearer {token}"}
         self.baseUrl = url
         self.session = requests.Session()
         self.session.headers.update(self.header)

@@ -976,7 +976,7 @@ def intro() -> str:
     .  // o\
     .  || ._)  lichess-bot {__version__}
     .  //__\
-    .  )___(   Play on Lichess with a bot
+    .  )____(   Play on Lichess with a bot
     """
 
 
